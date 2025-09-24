@@ -1,0 +1,38 @@
+trigger:
+  branches:
+    include:
+      - main
+
+pr:
+  branches:
+    include:
+      - '*'
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+  - task: Bash@3
+    displayName: 'Validaciones básicas'
+    inputs:
+      targetType: 'inline'
+      script: |
+        echo "Verificando archivos requeridos..."
+        test -f index.html
+        test -f styles.css
+        echo "OK"
+
+  - task: ArchiveFiles@2
+    displayName: 'Empaquetar sitio'
+    inputs:
+      rootFolderOrFile: '$(System.DefaultWorkingDirectory)'
+      includeRootFolder: false
+      archiveType: 'zip'
+      archiveFile: '$(Build.ArtifactStagingDirectory)/site.zip'
+      replaceExistingArchive: true
+
+  - task: PublishBuildArtifacts@1
+    inputs:
+      PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+      ArtifactName: 'drop'
+      publishLocation: 'Container'
