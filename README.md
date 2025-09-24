@@ -14,9 +14,10 @@ Aplicar Azure DevOps en un proyecto real: Boards (Epics/US/Tasks/Bugs), Sprints,
 > URL de entrega en Excel: `https://docs.google.com/spreadsheets/d/1mZKJ8FH390QHjwkABokh3Ys6kMOFZGzZJ3-kg5ziELc/edit?gid=0#gid=0`
 
 ## 🧩 Estructura del repo
-├── index.html
-├── styles.css
-├── azure-pipelines.yml
-├── README.md
-└── decisiones.md
+- index.html
+- styles.css
+- azure-pipelines.yml
+- README.md
+- decisiones.md
+
 
