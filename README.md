@@ -9,8 +9,9 @@ Aplicar Azure DevOps en un proyecto real: Boards (Epics/US/Tasks/Bugs), Sprints,
 - **PRs (Completados):** 
   - PR #1: *feat: sitio estático base + pipeline*
   - PR #2: *feat: sección de contacto*
-- **GitHub (mirror):** <https://valentinacerve500@dev.azure.com/valentinacerve500/TP3-Olivetto-Cervellini/_git/TP3-Olivetto-Cervellini>
+- **GitHub (mirror):** <https://github.com/Cervellini2501/TP3_AzureDevOps-Olivetto-Cervellini>
 
 > URL de entrega en Excel: `https://docs.google.com/spreadsheets/d/1mZKJ8FH390QHjwkABokh3Ys6kMOFZGzZJ3-kg5ziELc/edit?gid=0#gid=0`
 
 ## 🧩 Estructura del repo
+
