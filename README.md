@@ -1,20 +1,16 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# TP3 – Introducción a Azure DevOps (2025)
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+## 🎯 Objetivo
+Aplicar Azure DevOps en un proyecto real: Boards (Epics/US/Tasks/Bugs), Sprints, Repos, Branch Policies, Pull Requests y Pipelines.
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+## 🔗 Accesos
+- **Azure DevOps – Proyecto:** <https://dev.azure.com/valentinacerve500/TP3-Olivetto-Cervellini>
+- **Azure Repos – Repo:** <https://dev.azure.com/valentinacerve500/TP3-Olivetto-Cervellini/_git/TP3-repo>
+- **PRs (Completados):** 
+  - PR #1: *feat: sitio estático base + pipeline*
+  - PR #2: *feat: sección de contacto*
+- **GitHub (mirror):** <https://valentinacerve500@dev.azure.com/valentinacerve500/TP3-Olivetto-Cervellini/_git/TP3-Olivetto-Cervellini>
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+> URL de entrega en Excel: `https://docs.google.com/spreadsheets/d/1mZKJ8FH390QHjwkABokh3Ys6kMOFZGzZJ3-kg5ziELc/edit?gid=0#gid=0`
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+## 🧩 Estructura del repo
