@@ -9,6 +9,38 @@
   <body>
     <header><h1>Portal de Usuarios</h1></header>
 
+<section id="contacto">
+  <h2>Contacto</h2>
+  <form id="form-contacto">
+    <input type="text" id="c-nombre" placeholder="Nombre" required />
+    <input type="email" id="c-email" placeholder="Email" required />
+    <textarea id="c-mensaje" placeholder="Mensaje" rows="4"></textarea>
+    <button type="submit">Enviar</button>
+  </form>
+  <p id="c-msg"></p>
+</section>
+
+<script>
+  // Handler simple de contacto (no envía, solo valida y muestra feedback)
+  const f = document.getElementById('form-contacto');
+  f?.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const nombre = document.getElementById('c-nombre').value.trim();
+    const email = document.getElementById('c-email').value.trim();
+    const mensaje = document.getElementById('c-mensaje').value.trim();
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    const out = document.getElementById('c-msg');
+
+    if (!nombre) { out.textContent = 'Ingresá tu nombre'; return; }
+    if (!emailRegex.test(email)) { out.textContent = 'Email inválido'; return; }
+    if (!mensaje) { out.textContent = 'Escribí un mensaje'; return; }
+
+    out.textContent = '¡Mensaje enviado! (simulado) ✔';
+    f.reset();
+  });
+</script>
+
+
     <main>
       <section id="registro">
         <h2>Registro</h2>
